@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rossen Dale Dizon | Middle-earth Developer</title>
+    <meta name="description" content="Welcome to my portfolio - A journey through code and creativity in Middle-earth">
+    <link rel="stylesheet" href="index.css">
+    <!-- Google Fonts for thematic typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Preload critical assets -->
+    <link rel="preload" href="js/main.js" as="script">
+</head>
+<body>
+    <!-- Header Section with Navigation -->
+    <header class="main-header">
+        <nav class="nav-container">
+            <div class="logo">
+                <h1>Rossen's Journey</h1>
+                <span class="logo-subtitle">Web Developer of Middle-earth</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-scroll"></i> About</a></li>
+                <li><a href="project.html"><i class="fas fa-code-branch"></i> Projects</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-code"></i>
+            </div>
+            <h2>Welcome to My Realm of Creativity </h2>
+            <p class="hero-subtitle">Crafting Digital Experiences in the Spirit of Middle-earth and for Shire</p>
+            <div class="hero-cta">
+                <a href="project.html" class="cta-button primary">
+                    <i class="fas fa-arrow-right"></i>
+                    View My Projects
+                </a>
+                <a href="contact.html" class="cta-button secondary">
+                    <i class="fas fa-envelope"></i>
+                    Contact Me
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <div class="container">
+                <div class="section-header">
+                    <i class="fas fa-quote-left"></i>
+                    <h2>Greetings, My Fellow Traveler</h2>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <p class="intro-text">I am a developer who approaches coding with the wisdom of the Elves and the determination of the Dwarves. My journey through the realms of web development has been as epic as the quest to destroy the One Ring and Save Middle-Earth.</p>
+                <div class="intro-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">10+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Preview Section -->
+        <section class="skills-preview">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My Arsenal of Skills</h2>
+                    <p class="section-subtitle">Forged through countless coding adventures</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Frontend Development</h3>
+                        <p>HTML, CSS, JavaScript</p>
+                        <ul class="skill-tags">
+                            <li>React</li>
+                            <li>Vue.js</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend Development</h3>
+                        <p>Node.js, Python, Databases</p>
+                        <ul class="skill-tags">
+                            <li>Express</li>
+                            <li>Django</li>
+                            <li>MongoDB</li>
+                        </ul>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Personals Skills</h3>
+                        <p>Videographer, Photgrapher, Editor</p>
+                        <ul class="skill-tags">
+                            <li>Phone</li>
+                            <li>Camera</li>
+                            <li>Canva</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Preview -->
+        <section class="featured-projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Recent Adventures</h2>
+                    <p class="section-subtitle">Tales of successful quests and completed projects</p>
+                </div>
+                <div class="projects-grid">
+                    <!-- Project cards will be dynamically populated -->
+                </div>
+                <a href="project.html" class="view-all-btn">
+                    <span>View All Projects</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Join My Fellowship</h3>
+                    <p class="footer-description">Connect with me across the realms of Middle-earth</p>
+                    <div class="social-links">
+                        <a href="https://github.com/"class="social-link github" aria-label="GitHub Profile" title="GitHub - The Forge of Code">
+                            <i class="fab fa-github"></i>
+                            <span class="social-tooltip">The Forge of Code</span>
+                        </a>
+                        <a href="https://www.facebook.com/rossendale.dizon"class="social-link Facebook" aria-label="Facebook Profile" title="Facebook- The Rider of Rohan">
+                            <i class="fab fa-twitter"></i>
+                            <span class="social-tooltip">The Riders of Rohan</span>
+                        </a>
+                        <a href="https://www.instagram.com/rossendaledizon/#"class="social-link Instagram" aria-label="Instagram Profile" title="Instagram - The Mirror of Galadriel">
+                            <i class="fab fa-instagram"></i>
+                            <span class="social-tooltip">The Mirror of Galadriel</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="project.html"><i class="fas fa-code-branch"></i> Projects</a></li>
+                        <li><a href="about.html"><i class="fas fa-scroll"></i> About</a></li>
+                        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Newsletter</h3>
+                    <p class="footer-description">Subscribe to receive updates about my latest adventures</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Rossen's Portfolio. All rights reserved.</p>
+                <p class="footer-quote">"Not all those who wander are lost." - J.R.R. Tolkien</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>
